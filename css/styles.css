@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.hero {
+    padding: 50px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.about-me {
+    padding: 50px 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.about-me .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+.portfolio {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.portfolio .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.portfolio .card:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio .card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.contact form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
